@@ -1,0 +1,104 @@
+
+
+
+{
+  "method": "addLiquidityETH",
+  "types": [
+    "address",
+    "uint256",
+    "uint256",
+    "uint256",
+    "address",
+    "uint256"
+  ],
+  "inputs": [
+    "0bd451b952de19f2c7ba2c8c516b0740484e953b",
+    "2000000000000000000000000000000000000000000000014185ee9e4785acc",
+    "5e00000000000000000000000000000000000000000000000137e0a256f89395",
+    "ab070000000000000000000000000000000000000000000000000a2112f6af64",
+    "00000b987667a7047c3ef277b27b05ea92770149",
+    "cc3b020000000000000000000000000000000000000000000000000000000061"
+  ],
+  "names": [
+    "token",
+    "amountTokenDesired",
+    "amountTokenMin",
+    "amountETHMin",
+    "to",
+    "deadline"
+  ]
+}
+
+// 查询 LP-TOKEN
+(uint256)
+1
+(address)
+0xa6fD2503fcF6F795D4d1593085BF3040651D01D9
+uint256
+uint256
+[userInfo method Response]
+amount uint256:68944612169943238448
+rewardDebt uint256:1065758436375894120961
+
+
+// 还剩多少 kus 没收
+
+uint256
+[pendingKUS method Response]
+21412112826970757
+15.percentDec
+1000000
+uint256
+16.poolInfo
+(uint256)
+1
+//
+
+// swap  token 换 token
+
+{
+  "method": "swapExactTokensForTokens",
+  "types": [
+    "uint256",
+    "uint256",
+    "address[]",
+    "address",
+    "uint256"
+  ],
+  "inputs": [
+    "28b4e0b306425af9",
+    "1198582dd669a3ce9",
+    [
+      "4a81704d8c16d9fb0d7f61b747d0b5a272badf14",
+      "0039f574ee5cc39bdd162e9a88e3eb1f111baf48"
+    ],
+    "a6fd2503fcf6f795d4d1593085bf3040651d01d9",
+    "610d6ab7"
+  ],
+  "names": [
+    "amountIn",
+    "amountOutMin",
+    "path",
+    "to",
+    "deadline"
+  ]
+}
+
+
+// withdraw
+
+{
+  "method": "withdraw",
+  "types": [
+    "uint256",
+    "uint256"
+  ],
+  "inputs": [
+    "0",
+    "10000000000000000000000000000000000000000000000000de0b6b3a76400"
+  ],
+  "names": [
+    "_pid",
+    "_amount"
+  ]
+}

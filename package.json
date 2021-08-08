@@ -1,0 +1,24 @@
+{
+  "name": "autoswap",
+  "version": "0.0.1",
+  "description": "A tool for auto swap & farm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "onchange -i '**/*.js' --node ./app/index.js "
+  },
+  "keywords": [
+    "dex",
+    "autoswap",
+    "defi"
+  ],
+  "author": "bawei@3600@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "coingecko-api": "^1.0.10",
+    "ethers": "^5.4.4",
+    "keccak256": "^1.0.3",
+    "onchange": "^7.1.0"
+  }
+}
